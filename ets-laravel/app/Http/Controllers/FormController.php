@@ -28,7 +28,7 @@ class FormController extends Controller
             'kondisi' => 'required|min:3',
             'tanggal_lahir' => 'required',
             'sex' => 'required',
-            'suhu' => 'required|numeric|between:2.5,99.99',
+            'suhu' => 'required|numeric|between:35,45.5',
             'image' => 'required|mimes:jpg,png,jpeg|max:2048',
             'examplecheck1' => 'required'
         ],$messagesError);
